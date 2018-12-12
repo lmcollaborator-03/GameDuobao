@@ -11,20 +11,20 @@ if (!window.i18n.languages) {
 window.i18n.languages['jp'] = {
     //  主游戏
     "label_text": {
-        "huodejiangli":"恭喜用户%{yonghuming}成功夺宝第%{ji}期,获得%{duoshao}奖励",
-        "daojishi":"第%{ji}期 倒计时",
-        "yigoumai":"已购买：%{ji}个",
-        "shengyu":"剩余：%{ji}个",
-        "anniu_lijizhifu":"立即支付",
-        "zichuan":"用户资产",
-        "anniu_tibi":"提币",
-        "zhanghuchongzhi":"ETH账户充值",
-        "anniu_fuzhi":"复制",
-        "benqijilu"："本期夺宝记录",
-        "xianshiquanbu"："显示全部",
-        "wodexingyunma"："我的幸运码",
-        "yonghu"："用户%{yonghuming}",
-        "chakangengduo"："查看更多",
+        "huodejiangli":"%{yonghuming}様が第%{ji}回の宝探しキャンペーンの勝利を収めて、%{duoshao}のボーナスをGET！",
+        "daojishi":"第%{ji}回 カウントダウン",
+        "yigoumai":"購入：%{ji}",
+        "shengyu":"残高：%{ji}",
+        "anniu_lijizhifu":"すぐ支払い",
+        "zichuan":"ユーザーの資産",
+        "anniu_tibi":"出金",
+        "zhanghuchongzhi":"ETHチャージ",
+        "anniu_fuzhi":"コピー",
+        "benqijilu"："宝探し記録",
+        "xianshiquanbu"："すべて",
+        "wodexingyunma"："私のラッキーナンバー",
+        "yonghu"："%{yonghuming}様",
+        "chakangengduo"："もっと見る",
 
     }    
     
