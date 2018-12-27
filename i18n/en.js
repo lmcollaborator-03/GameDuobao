@@ -54,7 +54,7 @@ window.i18n.languages['en'] = {
     chakanjilu:'您可在下方查看“购买记录”',
     chexiaoduobao:"本期夺宝已撤销，购买金额将返还，请留意资产中心。",
     yonghuhuode:"<color=#FFEB00>%{username}</color> 获得",
-    zhongjiangma:"中奖码：<color=#FFFF00>%{zhongjiangma}</color>",
+    zhongjiangmt:"中奖码：<color=#FFFF00>%{zhongjiangmt}</color>",
     //提示
     fuzhichenggong: "复制成功！",
     fuzhishibai: "抱歉！复制失败！",
@@ -115,4 +115,13 @@ window.i18n.languages['en'] = {
     4、Based on the last purchase time, which will be automatically taken as the current exchange rate to get the right amount of USD from 1BTC at that moment(accurate to seconds). Take the integer part and 2 decimal digits and convert them into numerical value. For example: 1BTC=4890.41 USD, we take integer part and 2 decimal digits and convert them into 489041, which is denoted as B.
     5、Compute the remainder, (A+B) % maximum number of participants =C (remainder);
     6、The final winning number=10001+C；`,
+
+    benqicepan:"本期撤盘",
+    benqishuzijieguo:"取本期数值结果得",
+    duobaojiluUI:"夺宝记录",
+    riqi:"日期",
+    shijian:"时间",
+    shujuzhuanhuan: "数据转换",
+    yonghu:"用户",
+    xingyunma:"幸运码",
 };

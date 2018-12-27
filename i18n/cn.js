@@ -54,7 +54,7 @@ window.i18n.languages['cn'] = {
     chakanjilu:'您可在下方查看“购买记录”',
     chexiaoduobao:"本期夺宝已撤销，购买金额将返还，请留意资产中心。",
     yonghuhuode:"<color=#FFEB00>%{username}</color> 获得",
-    zhongjiangma:"中奖码：<color=#FFFF00>%{zhongjiangma}</color>",
+    zhongjiangmt:"中奖码：<color=#FFFF00>%{zhongjiangmt}</color>",
     //提示
     fuzhichenggong: "复制成功！",
     fuzhishibai: "抱歉！复制失败！",
@@ -115,4 +115,13 @@ window.i18n.languages['cn'] = {
     4、以最后一份购买的时间，即时获取当前时间（精确至秒）1BTC对应的美元值，取整数位及2位小数并转化为数值，例如：对应1BTC=4890.41美元，取小数点后2位并转化得489041，记作B；
     5、取余，（A+B）%最大参与人次=C（余数）；
     6、最终的中奖幸运码=10001+C；`,
+
+    benqicepan:"本期撤盘",
+    benqishuzijieguo:"取本期数值结果得",
+    duobaojiluUI:"夺宝记录",
+    riqi:"日期",
+    shijian:"时间",
+    shujuzhuanhuan: "数据转换",
+    yonghu:"用户",
+    xingyunma:"幸运码",
 };

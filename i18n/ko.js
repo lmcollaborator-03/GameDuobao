@@ -54,7 +54,7 @@ window.i18n.languages['ko'] = {
     chakanjilu:'您可在下方查看“购买记录”',
     chexiaoduobao:"本期夺宝已撤销，购买金额将返还，请留意资产中心。",
     yonghuhuode:"<color=#FFEB00>%{username}</color> 获得",
-    zhongjiangma:"中奖码：<color=#FFFF00>%{zhongjiangma}</color>",
+    zhongjiangmt:"中奖码：<color=#FFFF00>%{zhongjiangmt}</color>",
     //提示
     fuzhichenggong: "复制成功！",
     fuzhishibai: "抱歉！复制失败！",
@@ -115,4 +115,13 @@ window.i18n.languages['ko'] = {
     4、마지막 구매 시간에 (초까지) 실시간 비트코인 달러 가격으로(소수점 후 두 자리까지) 전환치를 B로 기록합니다. (예: 1BTC=$4890.41---489041
     5、나머지 숫자 시스템,（A+B）% 최대 참여 인수= C（여수）.
     6、최종 당첨 행운코드=10001+C.`,
+
+    benqicepan:"本期撤盘",
+    benqishuzijieguo:"取本期数值结果得",
+    duobaojiluUI:"夺宝记录",
+    riqi:"日期",
+    shijian:"时间",
+    shujuzhuanhuan: "数据转换",
+    yonghu:"用户",
+    xingyunma:"幸运码",
 };
