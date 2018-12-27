@@ -116,3 +116,4 @@ window.i18n.languages['en'] = {
     5、Compute the remainder, (A+B) % maximum number of participants =C (remainder);
     6、The final winning number=10001+C；`,
 };
+
