@@ -14,101 +14,101 @@ window.i18n.languages['ja'] = {
     /////////////////////////////////////////////////////////////////////////////
 
     //  主游戏
-    huodejiangli: "恭喜用户%{yonghuming}成功夺宝第%{ji}期,获得%{duoshao}奖励",
-    daojishi: "第%{ji}期 倒计时：",
-    yigoumai: "已购买：%{ji}个 <img src='gaozih' />",
-    shengyu: "剩余：%{ji}个 <img src='gaozir' />",
-    zhanghu: "账户：%{zhanghu}",
-    zichan: "资产：%{zichan}",
-    yonghu: "用户%{yonghuming}",
-    huansuan: "个<img src='gaozig' />≈%{jine}",
-    wujilu: "暂无记录",
-    dijiqi:"第%{ji}期",
-    zican_gongxuci:"%{zican_etc}\n共需%{ji}次",
-    paomadeng:"恭喜用户%{yonghu}成功夺宝第%{ji}期，获得%{qian_etc}奖励",
+    huodejiangli: "ユーザーの%{yonghuming}さんは第%{ji}回の宝探しの当選者となり、%{duoshao}の賞金を獲得",
+    daojishi: "第%{ji}回 カウントダウン：",
+    yigoumai: "購入：%{ji} <img src='gaozih' />",
+    shengyu: "残高：%{ji} <img src='gaozir' />",
+    zhanghu: "アカウント：%{zhanghu}",
+    zichan: "資産：%{zichan}",
+    yonghu: "ユーザー%{yonghuming}",
+    huansuan: "<img src='gaozig' />≈%{jine}",
+    wujilu: "記録なし",
+    dijiqi:"第%{ji}回",
+    zican_gongxuci:"%{zican_etc}\n必要採掘総回数：%{ji}",
+    paomadeng:"ユーザーの%{yonghu}さんは第%{ji}回の宝探しの当選者となり、%{qian_etc}の賞金を獲得",
     // 往期记录
-    kuangshanjiazhi:"矿山价值：%{qian_etc}",
-    zhongjiangma: "中奖码：%{zhongjiangma}",
-    zhongjiangyonghu: "\n中奖用户：%{zhongjiangyonghu}",
-    kaijiangshijian: "\n开奖时间：%{shijian}\n",
-    duobaokaishishijian: "夺宝开始时间：%{shijian}",
-    duobaorenci: "\n夺宝人次：%{duoshao}人次",
-    qiuhe:"1、求和：%{qiuhe}(本期夺宝购买记录时间取值相加之和)",
-    gongzhengzhi:"\n2、公证值：%{gongzhengzhi}（BTC价格） 价格：$%{jiage}"+
-                 "\nBTC价格调取时间：%{shijian}" +
-                 "\nBTC市场价格地址：https://coinmarketcap.com/",
-    quyu:"\n3、取余：(%{qiuhe} + %{gongzhengzhi}) % 100 = %{quyu}",
+    kuangshanjiazhi:"鉱山の価値：%{qian_etc}",
+    zhongjiangma: "当選番号：%{zhongjiangma}",
+    zhongjiangyonghu: "\n当選者：%{zhongjiangyonghu}",
+    kaijiangshijian: "\n結果発表：%{shijian}\n",
+    duobaokaishishijian: "開始時刻：%{shijian}",
+    duobaorenci: "\n採掘回数：%{duoshao}回",
+    qiuhe:"1、足し算：%{qiuhe}(今回のすべての購入時間の換算値の合計)",
+    gongzhengzhi:"\n2、公正価値：%{gongzhengzhi}（BTC価格） 価格：$%{jiage}"+
+                 "\nBTC価格を採用する時刻：%{shijian}" +
+                 "\nBTC市場価格：https://coinmarketcap.com/",
+    quyu:"\n3、余りを求め：(%{qiuhe} + %{gongzhengzhi}) % 100 = %{quyu}",
     //喜提提示
-    jingao: "喜提一把金镐",
-    yingao: "喜提一把银镐",
-    tonggao: "喜提一把铜镐",
-    tiegao: "喜提一把铁镐",
+    jingao: "金のつるはしをGET",
+    yingao: "銀のつるはしをGET",
+    tonggao: "銅のつるはしをGET",
+    tiegao: "鉄のつるはしをGET",
     //购买弹层
-    querengoumai: "确定要购买%{querengoumai}份吗？",
-    yueyichang:"账号余额异常，请重新尝试或联系客服：support@coingame.com",
-    yuebuzu: "余额不足，请立即充值。",
-    koukuanshibai:"扣款失败，请重新购买或联系客服：support@coingame.com",
-    fenebuzhu:"剩余份数不足，请重新购买。",
-    goumaiwan:"本期参与人次已满，请留意开奖或参与下期夺宝。",
-    yijieshu:"本期已结束。",
+    querengoumai: "%{querengoumai}本を購入しますか？",
+    yueyichang:"残高が異常値なので、再読み込みして、またはカスタマーサポートまでご連絡ください：support@coingame.com",
+    yuebuzu: "残高不足なので、すぐチャージしてください",
+    koukuanshibai:"決済失敗、再購入して、またはカスタマーサポートまでご連絡ください：support@coingame.com",
+    fenebuzhu:"つるはし不足なので、再購入してください。",
+    goumaiwan:"採掘総回数に到達し、結果発表をお楽しみください。",
+    yijieshu:"今回の宝探しは終了。",
     chakanjilu:'您可在下方查看“购买记录”',
-    chexiaoduobao:"本期夺宝已撤销，购买金额将返还，请留意资产中心。",
-    yonghuhuode:"<color=#FFEB00>%{username}</color> 获得",
-    zhongjiangma:"中奖码：<color=#FFFF00>%{zhongjiangma}</color>",
+    chexiaoduobao:"今回の宝探しはキャンセルされました。これから返金するので、資産センターにご注意ください。",
+    yonghuhuode:"<color=#FFEB00>%{username}</color> 獲得",
+    zhongjiangma:"当選番号：<color=#FFFF00>%{zhongjiangma}</color>",
     //提示
-    fuzhichenggong: "复制成功！",
-    fuzhishibai: "抱歉！复制失败！",
-    denglu:"请点击右上角菜单登陆！",
-    fenebuzhuchao:"已超过剩余份数",
-    wangluo: "当前网络不可用，请检查网络连接是否正常。",
-    wangluolianjie: "当前网络异常！您可以尝试重新连接",
+    fuzhichenggong: "コピー完了！",
+    fuzhishibai: "申し訳ございません！コピー失敗！",
+    denglu:"右上にあるボタンをクリックしてログイン！",
+    fenebuzhuchao:"つるはし不足",
+    wangluo: "ネットワークに接続できません。ネットワークへの接続状態をご確認ください。",
+    wangluolianjie: "ネットワークへの接続に問題があり、もう一度接続をお試しください。",
     
     // ui 中设置
     // main
-    xiayiqi:"下\n一\n期",
-    anniu_lijizhifu: "立即支付",
-    anniu_tibi: "提币",
-    anniu_fuzhi: "复制",
-    zhanghuchongzhi: "账户充值:",
-    benqijilu: "本期夺宝记录",
-    xianshiquanbu: "显示全部",
-    wodexingyunma: "我的幸运码",
-    wangqijilu: "往期记录 >",
-    chakangengduo: "查看更多",
+    xiayiqi:"次\n回\n",
+    anniu_lijizhifu: "支払う",
+    anniu_tibi: "出金",
+    anniu_fuzhi: "コピー",
+    zhanghuchongzhi: "チャージ:",
+    benqijilu: "今回の宝探し記録",
+    xianshiquanbu: "すべてを表示",
+    wodexingyunma: "私の幸運番号",
+    wangqijilu: "過去の宝探し >",
+    chakangengduo: "もっと見る",
     //按钮
-    anniu_1: "确认",
-    anniu_2: "取消",
+    anniu_1: "確認",
+    anniu_2: "キャンセル",
     //新手引导
-    yindao_1: "挖矿夺宝",
-    yindao_11: "幸运者将独揽整个矿池",
-    yindao_2: "每期夺宝矿池及挖矿倒计时",
-    yindao_3: "向地址充值用以购买挖矿工具",
-    yindao_32: "第1期 倒计时 20:20:20",
-    yindao_4: "更多挖矿工具将有更大机会独揽奖励",
-    yindao_5: "每次的挖矿将记录在这里",
-    yindao_55: "个<img src='gaozig' />≈0.01 ETC",
-    yindao_6: "游戏规则、注册、登录请点这里",
-    yindao_xiayibu: "下一步",
-    yindao_kaishi: "开始夺宝之旅",
-    yindao_tuichu: "退出引导",
-    yindao_guanwang: "官网",
-    yindao_login:"注册/登录",
-    yindao_android:"安卓客户端",
-    yindao_yuyan:"语言",
+    yindao_1: "宝探し",
+    yindao_11: "当選者は鉱山を独り占め",
+    yindao_2: "毎回の鉱山およびカウントダウン",
+    yindao_3: "アドレスにチャージして、つるはしを購入",
+    yindao_32: "第1回 カウントダウン 20:20:20",
+    yindao_4: "つるはしが多ければ、鉱山を独り占めの可能性が高い",
+    yindao_5: "すべての採掘記録はこちら",
+    yindao_55: "<img src='gaozig' />≈0.01 ETC",
+    yindao_6: "こちらからルールをチェック、または登録・ログインししてください。。",
+    yindao_xiayibu: "次は",
+    yindao_kaishi: "宝探しを始める",
+    yindao_tuichu: "退出",
+    yindao_guanwang: "公式サイト",
+    yindao_login:"登録/ログイン",
+    yindao_android:"Android",
+    yindao_yuyan:"言語",
     // 维护
-    weihuzhong:"游戏维护中，请稍后重试",
+    weihuzhong:"メンテナンス中なので、後ほどもう一度お試しください。",
 
     // 夺宝规则
     guizewenzi:`<color=#E2E7FE><size=30>宝探しに関するルール：</size></color>
     1、登録ユーザーのみがこのキャンペーンに参加できる。
     2、このキャンペーンは毎回一種類のコインに向けるので、そのコインだけでご参加ください。
     3、無料期間の間に、1人あたりの購入数は制限されている。
-    4、購入するたびにラッキーナンバーがゲットできる。
+    4、購入するたびに幸運番号がゲットできる。
     5、参加人数の上限に到達する時に当選番号を発表；当選者がボーナスをゲット。
     6、当社はボーナスの一部をサービス料として請求する。
     7、このキャンペーンの最終解釈権は当社が所有する。ご不明な点がありましたら、カスタマーサービスsupport@coingame.comまでご連絡下さい。
     
-    <color=#E2E7FE><size=30>幸运码规则：<color=#E2E7FE><size=30></size></color>
+    <color=#E2E7FE><size=30>幸運番号に関するルール：<color=#E2E7FE><size=30></size></color>
     1、ラッキーナンバーの値の範囲は「10001、10000+最大参加人数」。
     2、購入時間の時、分、秒とミリ秒を数値に変換する。例えば、「08：32：25.672」を「083225672」に変換する。
     3、すべての換算値の合計をAと表記する。
