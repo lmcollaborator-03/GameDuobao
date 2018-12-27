@@ -8,7 +8,7 @@ if (!window.i18n.languages) {
     window.i18n.languages = {};
 }
 
-window.i18n.languages['en'] = {
+window.i18n.languages['ja'] = {
     /////////////////////////////////////////////////////////////////////////////
     /////////// 请注意 翻译部分 %{xxx} \n <img src='' /> 等 要留意一下 //////////////
     /////////////////////////////////////////////////////////////////////////////
@@ -99,20 +99,20 @@ window.i18n.languages['en'] = {
     weihuzhong:"游戏维护中，请稍后重试",
 
     // 夺宝规则
-    guizewenzi:`<color=#E2E7FE><size=30>Treasure Hunt Rules:：</size></color>
-    1、Only registered players on the platform can participate the game ;
-    2、Each issue will generate only one prize fund in only one type of the currency, and players must use the corresponding currency to participate the game;
-    3、During the free period of game, number of shares of each player to buy will be limited;
-    4、A random lucky number will be given in each purchase for the Lucky Number Draw ;
-    5、When the number of participants reaches the limit, the winning number will be announced. If you've managed to match the lucky draw, then all you need to do is get in touch to start the claim award process!
-    6、The company will charge a certain amount of the reward as our service fee;
-    7、The company reserves the right of final decision and interpretation in the game. If you have any questions, please contact the official customer service: support@coingame.org
+    guizewenzi:`<color=#E2E7FE><size=30>宝探しに関するルール：</size></color>
+    1、登録ユーザーのみがこのキャンペーンに参加できる。
+    2、このキャンペーンは毎回一種類のコインに向けるので、そのコインだけでご参加ください。
+    3、無料期間の間に、1人あたりの購入数は制限されている。
+    4、購入するたびにラッキーナンバーがゲットできる。
+    5、参加人数の上限に到達する時に当選番号を発表；当選者がボーナスをゲット。
+    6、当社はボーナスの一部をサービス料として請求する。
+    7、このキャンペーンの最終解釈権は当社が所有する。ご不明な点がありましたら、カスタマーサービスsupport@coingame.comまでご連絡下さい。
     
-    <color=#E2E7FE><size=30>Lucky Number Draw：</size></color>
-    1、All lucky numbers in the range [10001,10000+ maximum number of participants], each of which will get a lucky number;
-    2、Turn the purchasing time, minute, second and millisecond into the value, i.e. 08:32:25.672, which is 083225672.
-    3、Sum up the converted value, which is denoted as A.
-    4、Based on the last purchase time, which will be automatically taken as the current exchange rate to get the right amount of USD from 1BTC at that moment(accurate to seconds). Take the integer part and 2 decimal digits and convert them into numerical value. For example: 1BTC=4890.41 USD, we take integer part and 2 decimal digits and convert them into 489041, which is denoted as B.
-    5、Compute the remainder, (A+B) % maximum number of participants =C (remainder);
-    6、The final winning number=10001+C；`,
+    <color=#E2E7FE><size=30>幸运码规则：<color=#E2E7FE><size=30></size></color>
+    1、ラッキーナンバーの値の範囲は「10001、10000+最大参加人数」。
+    2、購入時間の時、分、秒とミリ秒を数値に変換する。例えば、「08：32：25.672」を「083225672」に変換する。
+    3、すべての換算値の合計をAと表記する。
+    4、最後の購入時に1BTCの価格(USD)の小数点以下2桁までの数値を取り出して、Bと表記する。例えば、1BTC=$4890.41、B=489041。
+    5、最大参加人数の（A+B）％= C（余り）。
+    6、当選番号=10001+C。`,
 };

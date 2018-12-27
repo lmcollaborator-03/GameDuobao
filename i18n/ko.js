@@ -8,7 +8,7 @@ if (!window.i18n.languages) {
     window.i18n.languages = {};
 }
 
-window.i18n.languages['en'] = {
+window.i18n.languages['ko'] = {
     /////////////////////////////////////////////////////////////////////////////
     /////////// 请注意 翻译部分 %{xxx} \n <img src='' /> 等 要留意一下 //////////////
     /////////////////////////////////////////////////////////////////////////////
@@ -99,20 +99,20 @@ window.i18n.languages['en'] = {
     weihuzhong:"游戏维护中，请稍后重试",
 
     // 夺宝规则
-    guizewenzi:`<color=#E2E7FE><size=30>Treasure Hunt Rules:：</size></color>
-    1、Only registered players on the platform can participate the game ;
-    2、Each issue will generate only one prize fund in only one type of the currency, and players must use the corresponding currency to participate the game;
-    3、During the free period of game, number of shares of each player to buy will be limited;
-    4、A random lucky number will be given in each purchase for the Lucky Number Draw ;
-    5、When the number of participants reaches the limit, the winning number will be announced. If you've managed to match the lucky draw, then all you need to do is get in touch to start the claim award process!
-    6、The company will charge a certain amount of the reward as our service fee;
-    7、The company reserves the right of final decision and interpretation in the game. If you have any questions, please contact the official customer service: support@coingame.org
+    guizewenzi:`<color=#E2E7FE><size=30>보물파기 규칙:</size></color>
+    1、플랫폼에서 회원가입을 하시는 유저만 참여할 수 있습니다.
+    2、매회마다 보상풀에 한 화폐 종류만을 생성할 수 있으니, 반드시 해당 화폐 종류로 구매해야 합니다.
+    3、푸리 회의 보물파기는 구매 제한이 있습니다.
+    4、구매 시 행운 코드를 임의의 획득할 겁니다.
+    5、참여인수가 최대수에 도착할 때 행운코드를 공시하고 당첨자를 발표할 것입니다. 행운코드를 가지는 유저가 보상을 획득합니다.
+    6、플랫폼은 보상에서 일정 비율의 금액을 서비스비로 받을 것입니다.
+    7、플랫폼은 이 게임의 최종 해석권이 있습니다. 질문이 있으면 고객서비스 이메일로( support@coingame.com) 문의하십시오.
     
-    <color=#E2E7FE><size=30>Lucky Number Draw：</size></color>
-    1、All lucky numbers in the range [10001,10000+ maximum number of participants], each of which will get a lucky number;
-    2、Turn the purchasing time, minute, second and millisecond into the value, i.e. 08:32:25.672, which is 083225672.
-    3、Sum up the converted value, which is denoted as A.
-    4、Based on the last purchase time, which will be automatically taken as the current exchange rate to get the right amount of USD from 1BTC at that moment(accurate to seconds). Take the integer part and 2 decimal digits and convert them into numerical value. For example: 1BTC=4890.41 USD, we take integer part and 2 decimal digits and convert them into 489041, which is denoted as B.
-    5、Compute the remainder, (A+B) % maximum number of participants =C (remainder);
-    6、The final winning number=10001+C；`,
+    <color=#E2E7FE><size=30>행운코드 규칙:</size></color>
+    1、행운코드의 수치 범위는 [10001,10000+최대 참여 인수]이고 구매 시 행운코드를 임의의 획득할 겁니다.
+    2、구매하는 시간의 시, 분, 초, 밀리 초에 따라 코드를 생성하는 것입니다. (예: 08:32:25:672---083225672)
+    3、해당 보상풀에 구매 시간의 전환치를 모두 더하고 A로 기록합니다.
+    4、마지막 구매 시간에 (초까지) 실시간 비트코인 달러 가격으로(소수점 후 두 자리까지) 전환치를 B로 기록합니다. (예: 1BTC=$4890.41---489041
+    5、나머지 숫자 시스템,（A+B）% 최대 참여 인수= C（여수）.
+    6、최종 당첨 행운코드=10001+C.`,
 };
