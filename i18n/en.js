@@ -24,15 +24,15 @@ window.i18n.languages['en'] = {
     huansuan: "个<img src='gaozig' />≈%{jine}",
     wujilu: "No Record",
     dijiqi:"No.%{ji}",
-    zican_gongxuci:"%{zican_etc}\n%{ji}次",
-    paomadeng:"Congratulation to user%{yonghu}Treasure Hunting NO.%{ji} mission completed successfully! You will be awarded%{qian_etc}ETC",
+    zican_gongxuci:"<size=35>%{zican_etc}</size>\n%{ji}times",
+    paomadeng:"Congratulation to user%{yonghu}Treasure Hunting NO.%{ji} mission completed successfully! You will be awarded%{qian_etc}",
     // 往期记录
     kuangshanjiazhi:"Mining value：%{qian_etc}",
     zhongjiangma: "The winning number is：%{zhongjiangma}",
     zhongjiangyonghu: "\Winner：%{zhongjiangyonghu}",
     kaijiangshijian: "\Lucky Draw Time ：%{shijian}\n",
     duobaokaishishijian: "Start Time of Treasure Hunt：%{shijian}",
-    duobaorenci: "\nTotal Number：%{duoshao}人次",
+    duobaorenci: "\nTotal Number：%{duoshao}times",
     qiuhe:"1、Sum up：%{qiuhe}(During the period of Treasure Hunt the total value of purchasing time )",
     gongzhengzhi:"\n2、Notarization Value：%{gongzhengzhi}（BTC Price） Price：$%{jiage}"+
                  "\nBTC Price Taken Time：%{shijian}" +
@@ -65,7 +65,7 @@ window.i18n.languages['en'] = {
     
     // ui 中设置
     // main
-    xiayiqi:"Next\n一\n Issue",
+    xiayiqi:"N\ne\nx\nt",
     anniu_lijizhifu: "Pay Immediate",
     anniu_tibi: "Withdrawl",
     anniu_fuzhi: "Copy",
@@ -99,21 +99,34 @@ window.i18n.languages['en'] = {
     weihuzhong:"Game maintenance, please try again later",
 
     // 夺宝规则
-    guizewenzi:`<color=#E2E7FE><size=30>Treasure Hunt Rules:：</size></color>
-    1、Only registered players on the platform can participate the game ;
-    2、Each issue will generate only one prize fund in only one type of the currency, and players must use the corresponding currency to participate the game;
-    3、During the free period of game, number of shares of each player to buy will be limited;
-    4、A random lucky number will be given in each purchase for the Lucky Number Draw ;
-    5、When the number of participants reaches the limit, the winning number will be announced. If you've managed to match the lucky draw, then all you need to do is get in touch to start the claim award process!
-    6、The company will charge a certain amount of the reward as our service fee;
-    7、The company reserves the right of final decision and interpretation in the game. If you have any questions, please contact the official customer service: support@coingame.org
-    
-    <color=#E2E7FE><size=30>Lucky Number Draw：</size></color>
-    1、All lucky numbers in the range [10001,10000+ maximum number of participants], each of which will get a lucky number;
-    2、Turn the purchasing time, minute, second and millisecond into the value, i.e. 08:32:25.672, which is 083225672.
-    3、Sum up the converted value, which is denoted as A.
-    4、Based on the last purchase time, which will be automatically taken as the current exchange rate to get the right amount of USD from 1BTC at that moment(accurate to seconds). Take the integer part and 2 decimal digits and convert them into numerical value. For example: 1BTC=4890.41 USD, we take integer part and 2 decimal digits and convert them into 489041, which is denoted as B.
-    5、Compute the remainder, (A+B) % maximum number of participants =C (remainder);
-    6、The final winning number=10001+C；`,
-};
+    guizewenzi:`<color=#E2E7FE><size=30>Treasure Hunt Rules:</size></color>
+1、Only registered players on the platform can participate the game ;
+2、Each issue will generate only one prize fund in only one type of the currency, and players must use the corresponding currency to participate the game;
+3、During the free period of game, number of shares of each player to buy will be limited;
+4、A random lucky number will be given in each purchase for the Lucky Number Draw ;
+5、When the number of participants reaches the limit, the winning number will be announced. If you've managed to match the lucky draw, then all you need to do is get in touch to start the claim award process!
+6、The company will charge a certain amount of the reward as our service fee;
+7、The company reserves the right of final decision and interpretation in the game. If you have any questions, please contact the official customer service:
+Email：support@coingame.com 
+QQ：468631374
+Kakao：Coingame Korea
+（<u click="clickme1" >https://open.kakao.com/o/shleVM3</u>）
+Telegram：<u click="clickme2" >https://t.me/Coingame_official</u>
 
+<color=#E2E7FE><size=30>Lucky Number Draw：</size></color>
+1、All lucky numbers in the range [10001,10000+ maximum number of participants], each of which will get a lucky number;
+2、Turn the purchasing time, minute, second and millisecond into the value, i.e. 08:32:25.672, which is 083225672.
+3、Sum up the converted value, which is denoted as A.
+4、Based on the last purchase time, which will be automatically taken as the current exchange rate to get the right amount of USD from 1BTC at that moment(accurate to seconds). Take the integer part and 2 decimal digits and convert them into numerical value. For example: 1BTC=4890.41 USD, we take integer part and 2 decimal digits and convert them into 489041, which is denoted as B.
+5、Compute the remainder, (A+B) % maximum number of participants =C (remainder);
+6、The final winning number=10001+C；`,
+
+    benqicepan:"Current withdrawal",
+    benqishuzijieguo:"The result of this current numerical is",
+    duobaojiluUI:"Treasure record",
+    riqi:"Date",
+    shijian:"Time",
+    shujuzhuanhuan: "Data conversion",
+    yonghu:"User",
+    xingyunma:"Lucky number",
+};

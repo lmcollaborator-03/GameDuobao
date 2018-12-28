@@ -24,7 +24,7 @@ window.i18n.languages['tw'] = {
     huansuan: "個<img src='gaozig' />≈%{jine}",
     wujilu: "暫無記錄",
     dijiqi:"第%{ji}期",
-    zican_gongxuci:"%{zican_etc}\n共需%{ji}次",
+    zican_gongxuci:"<size=35>%{zican_etc}</size>\n共需%{ji}次",
     paomadeng:"恭喜用戶%{yonghu}成功奪寶第%{ji}期，獲得%{qian_etc}獎勵",
     // 往期记录
     kuangshanjiazhi:"礦山價值：%{qian_etc}",
@@ -100,27 +100,32 @@ window.i18n.languages['tw'] = {
 
     // 夺宝规则
     guizewenzi:`<color=#E2E7FE><size=30>奪寶規則：</size></color>
-    1、只能是平臺註冊用戶才能參與奪寶；
-    2、每期只會生成一個幣種的獎池，必須用對應獎池的幣種參與購買；
-    3、免費期的奪寶會限制每人購買的份數；
-    4、每購買一份都會隨機獲得一個幸運碼；
-    5、參與人次達到最大時，獎池開獎並公佈中獎的幸運碼，擁有中獎幸運碼的用戶獲得獎勵；
-    6、官方會從獎勵中收取一定比例的金額作為服務費；
-    7、官方擁有該遊戲的最終解釋權。如有任何疑問請聯繫官方客服：support@coingame.com
-    
-    <color=#E2E7FE><size=30>幸運碼規則：</size></color>
-    1、幸運碼的取值範圍[10001,10000+最大參與人次]，每份都會擁有一個幸運碼;
-    2、將每份購買的時間取時、分、秒、毫秒，轉化為數值，例08:32:25.672，轉化得083225672;
-    3、以最後一份購買的時間，即時獲取當前時間（精確至秒）1BTC對應的美元值，取整數位元及2位元小數並轉化為數值，例如：對應1BTC=4890.41美元，取小數點後2位並轉化得489041，記作B;
-    5、取餘，（A+B）%最大參與人次=C（餘數）;
-    6、最終的中獎幸運碼=10001+C;`,
+1、只能是平臺註冊用戶才能參與奪寶；
+2、每期只會生成一個幣種的獎池，必須用對應獎池的幣種參與購買；
+3、免費期的奪寶會限制每人購買的份數；
+4、每購買一份都會隨機獲得一個幸運碼；
+5、參與人次達到最大時，獎池開獎並公佈中獎的幸運碼，擁有中獎幸運碼的用戶獲得獎勵；
+6、官方會從獎勵中收取一定比例的金額作為服務費；
+7、官方擁有該遊戲的最終解釋權。如有任何疑問請聯繫官方客服：
+Email：support@coingame.com 
+QQ：468631374
+Kakao：Coingame Korea
+（<u click="clickme1" >https://open.kakao.com/o/shleVM3</u>）
+Telegram：<u click="clickme2" >https://t.me/Coingame_official</u>
 
-    benqicepan:"本期撤盘",
-    benqishuzijieguo:"取本期数值结果得",
-    duobaojiluUI:"夺宝记录",
-    riqi:"日期",
-    shijian:"时间",
-    shujuzhuanhuan: "数据转换",
-    yonghu:"用户",
-    xingyunma:"幸运码",
+<color=#E2E7FE><size=30>幸運碼規則：</size></color>
+1、幸運碼的取值範圍[10001,10000+最大參與人次]，每份都會擁有一個幸運碼;
+2、將每份購買的時間取時、分、秒、毫秒，轉化為數值，例08:32:25.672，轉化得083225672;
+3、以最後一份購買的時間，即時獲取當前時間（精確至秒）1BTC對應的美元值，取整數位元及2位元小數並轉化為數值，例如：對應1BTC=4890.41美元，取小數點後2位並轉化得489041，記作B;
+5、取餘，（A+B）%最大參與人次=C（餘數）;
+6、最終的中獎幸運碼=10001+C;`,
+
+    benqicepan:"本期撤盤", 
+    benqishuzijieguo:"取本期數值結果得", 
+    duobaojiluUI:"奪寶記錄", 
+    riqi:"日期", 
+    shijian:"時間", 
+    shujuzhuanhuan: "資料轉換", 
+    yonghu:"用戶", 
+    xingyunma:"幸運碼",
 };
