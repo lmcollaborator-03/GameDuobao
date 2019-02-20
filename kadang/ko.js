@@ -14,85 +14,85 @@ window.i18n.languages['ko'] = {
     /////////////////////////////////////////////////////////////////////////////
 
     //  主游戏
-    zhanghu: "账户：%{zhanghu}",
-    zichan: "资产：%{zichan}",
-    wujilu: "暂无记录",
-    fapai:"发牌",
-    napai:"拿牌",
-    jiabei:"加倍",
-    zhanghuchongzhi:"账户充值地址：\n",
-    fuzhi:"复制",
+    zhanghu: "계정：%{zhanghu}",
+    zichan: "자산：%{zichan}",
+    wujilu: "기록 없음",
+    fapai:"카드 돌리기",
+    napai:"카드 받기",
+    jiabei:"더블",
+    zhanghuchongzhi:"계정 충전 주소：\n",
+    fuzhi:"복사",
 
     //购买弹层
-    wuzige:"没有参与游戏的资格",
-    chaochushangxin:"本次游戏您已达到参与上限",
-    yueyichang:"账号余额异常，请重新尝试或联系客服：support@coingame.com",
-    yuebuzu: "余额不足，请立即充值。",
-    koukuanshibai:"扣款失败，请重新购买或联系客服：support@coingame.com",
-    fenebuzhu:"该币种剩余份数不够",
-    yijieshu:"本期已结束。",
-    fanjiangyichang:"获取币种价格异常，请联系客服：support@coingame.com",
-    fanjiangshibai:"返奖失败，请联系客服：support@coingame.com",
-    xitiyichang:"系统异常，请联系客服：support@coingame.com",
+    wuzige:"게임 참여 자격 없음",
+    chaochushangxin:"이번 회 게임의 참여 상한이 도달했습니다 ",
+    yueyichang:"계정 잔액이 이상합니다. 재시도하거나 고객센터에 연락하십시오：support@coingame.com",
+    yuebuzu: "잔액이 부족합니다. 충전하십시오",
+    koukuanshibai:"결제 실패했습니다. 다시 구입하거나 고객센터에 연락하십시오：support@coingame.com",
+    fenebuzhu:"해당 코인 잔여 수량이 부족합니다",
+    yijieshu:"이번 회 종료되었습니다.",
+    fanjiangyichang:"코인 가격 조회 이상이 있습니다. 고객센터에 연락주십시오：support@coingame.com",
+    fanjiangshibai:"상금 지급 실패했습니다. 고객센터에 연락주십시오：support@coingame.com",
+    xitiyichang:"시스템 이상이 있습니다.고객센터에 연락주십시오：support@coingame.com",
     //提示
-    fuzhichenggong: "复制成功！",
-    fuzhishibai: "抱歉！复制失败！",
-    wangluo: "当前网络不可用，请检查网络连接是否正常。",
-    wangluolianjie: "当前网络异常！您可以尝试重新连接",
-    zaijiezaili:"再接再厉",
-    henyihan:"很遗憾",
-    gongxinin:"恭喜您",
+    fuzhichenggong: "복사했음!",
+    fuzhishibai: "죄송합니다!복사 실패했습니다!",
+    wangluo: "인터넷 연결 안됩니다. 네트워크 연결이 정상인지 확인하십시오. ",
+    wangluolianjie: "현재 인터넷이 이상합니다! 다시 시도하십시오",
+    zaijiezaili:"한번 더 해보세요",
+    henyihan:"아쉽습니다.",
+    gongxinin:"축하합니다.",
     
     // ui 中设置
     // main
-    anniu_tibi: "提币",
-    anniu_chongzhi: "充值",
-    benqijilu: "中奖纪录",
-    chakangengduo: "查看更多",
-    riqi:"日期",
-    yonghu:"用户",
-    touzhu:"投注",
-    beishu:"倍数",
-    shouyi:"收益",
+    anniu_tibi: "출금",
+    anniu_chongzhi: "충전",
+    benqijilu: "당첨 기록",
+    chakangengduo: "더 보기",
+    riqi:"날짜",
+    yonghu:"회원",
+    touzhu:"배팅",
+    beishu:"배수",
+    shouyi:"수익",
     //按钮
-    anniu_1: "确认",
-    anniu_2: "取消",
+    anniu_1: "확인",
+    anniu_2: "취소",
     //新手引导
-    yindao_guanwang: "官网",
-    yindao_login:"注册/登录",
-    yindao_android:"安卓客户端",
-    yindao_yuyan:"语言",
-    yindao_logout:"退出/切换账号",
-    yindao_music:"声音",
-    yindao_help:"帮助",
+    yindao_guanwang: "홈페이지",
+    yindao_login:"회원가입/로그인",
+    yindao_android:"안드로이드 ",
+    yindao_yuyan:"언어",
+    yindao_logout:"로그아웃/다른 계정으로 등록 ",
+    yindao_music:"소리",
+    yindao_help:"도움",
     // 维护
-    weihuzhong:"游戏维护中，请稍后重试 ",
+    weihuzhong:"게임 시스템 관리중입니다. 잠시 뒤에 재시도하십시오",
 
     // 记录
-    riqi:"日期",
+    riqi:"날짜",
     // shijian:"时间<color=#FFFFFF>(UTC0)</color>",
-    yonghu:"用户",
+    yonghu:"회원",
 
     // 排行榜
-    wodetouzhu:"我的投注：%{tou}",
-    wodepaiming:"我的排名：%{paiming}",
-    paihangbang:"排行榜",
-    paiming:"排名",
-    yonghuming:"用户名",
-    touzhue:"投注额",
-    wodezhanji:"我的战绩",
-    caichijilu:"彩池记录",
-    shijian:"时间",
-    jiangli:"奖励",
-    fenlei:"分类",
-    paimian:"牌面",
-    toubijine:"当前投币金额：%{jine}",
+    wodetouzhu:"나의 배팅：%{tou}",
+    wodepaiming:"나의 순위：%{paiming}",
+    paihangbang:"랭킹 리스트",
+    paiming:"순위",
+    yonghuming:"회원명",
+    touzhue:"배팅 금액",
+    wodezhanji:"나의 기록",
+    caichijilu:"상금불 기록",
+    shijian:"시간",
+    jiangli:"상금",
+    fenlei:"분류",
+    paimian:"카트 내용",
+    toubijine:"현재 배팅 금액：%{jine}",
 
     // 规则
     guizewenzi:`帮助页内容：
-规则：
-每次游戏都是用一副扑克，去掉大小王，共计52张牌。
-牌点大小：A&lt;2&lt;3&lt;4&lt;5&lt;6&lt;7&lt;8&lt;9&lt;10&lt;J&lt;Q&lt;K。
+규칙：
+매회 포카 한 벌 중에 조커를 제거하고 나머진 52장 카트를 게임에 사용합니다. 
+：A&lt;2&lt;3&lt;4&lt;5&lt;6&lt;7&lt;8&lt;9&lt;10&lt;J&lt;Q&lt;K。
 在“发牌”前，玩家先确认自己的游戏金额。
 “发牌”后，玩家只有5秒的时间决定是否该局游戏“加倍”，5秒超时后，系统将默认玩家不加倍并自动发牌给玩家。
 通常情况下，“拿牌”或“加倍”后，第三张牌点在前两张牌之间则获胜。
