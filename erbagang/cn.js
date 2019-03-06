@@ -29,7 +29,7 @@ window.i18n.languages['cn'] = {
     szshibai:"申请上庄失败",
     szchenggong:"申请上庄成功",
     xzchenggong:"申请下庄成功",
-    shangzhuang:"上庄",
+    shangzhuang:"我要上庄",
     xuanzhong:"选中状态设置必须大于0",
     zbjinshangxian:"游戏准备金不能小于上庄限额%{zbjinshangxian}",
     dengdai:"等待下一轮开始...", // 记得加上...
