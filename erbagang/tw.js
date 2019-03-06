@@ -39,7 +39,7 @@ window.i18n.languages['tw'] = {
  wujilu: "暂无记录",
  paomadeng:"恭喜用户%{yonghu}投注%{beishu}倍，获得%{etcjiang}奖励",
  
- // 操盘
+ // 上庄
  paixu:"排序",
  yonghu:"用户",
  jine:"金额",
@@ -56,7 +56,7 @@ window.i18n.languages['tw'] = {
  shezhijine:"设定庄家上庄金额",
  zidongbuzu:"自动补足坐庄金额", // 自动补足坐庄金额 xx 次 翻译的时候注意一下是放在下面还是上面
  zidongbuzuci:"次",// 自动补足坐庄金额 xx 次 翻译的时候注意一下是放在下面还是上面
- zuozhuangzhushi:"* 操盘金额不足时，系统自动扣除您的余额并补足操盘金额",
+ zuozhuangzhushi:"* 上庄金额不足时，系统自动扣除您的余额并补足上庄金额",
  // 结算
  jiesuantou:"本局收益前五名",
  lianzhuang:"连庄",
