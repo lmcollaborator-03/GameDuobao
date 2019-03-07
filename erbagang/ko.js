@@ -13,114 +13,114 @@ window.i18n.languages['ko'] = {
     /////////// 请注意 翻译部分 %{xxx} \n <img src='' /> 等 要留意一下 //////////////
     /////////////////////////////////////////////////////////////////////////////
 // 图片文字翻译
-kaishila:"开始啦",
+kaishila:"시작",
 
 //  主游戏
-zongtouzhu:"总：%{zongtouzhu}",
-wotouzhu:"我：%{wotouzhu}",
-zichan: "资产：%{zichan}",
-zhunbeijin:"准备金：%{zhunbeijin}",
-yuebuzu: "余额不足，请立即充值。",
-touzhu:"当前可投注：%{touzhu}",
-denglu:"请点击右上角菜单登录！",
-tuichuliebiao:"退出列表",
-kanzhuangliebiao:"上庄列表",
-szshibai:"申请上庄失败",
-szchenggong:"申请上庄成功",
-xzchenggong:"申请下庄成功",
-shangzhuang:"我要上庄",
-xuanzhong:"选中状态设置必须大于0",
-zbjinshangxian:"游戏准备金不能小于上庄限额%{zbjinshangxian}",
-dengdai:"等待下一轮开始...", // 记得加上...
-jipai:"记牌",
-jihaozhuo:"%{jihaozhuo}号桌", // x号桌
+zongtouzhu:"총：%{zongtouzhu}",
+wotouzhu:"나：%{wotouzhu}",
+zichan: "잔액：%{zichan}",
+zhunbeijin:"자본금：%{zhunbeijin}",
+yuebuzu: "잔액이 부족합니다. 충전해주세요.",
+touzhu:"베팅 가능 금액：%{touzhu}",
+denglu:"로그인이 필요합니다.",
+tuichuliebiao:"뱅커 신청 취소",
+kanzhuangliebiao:"뱅커 대기명단",
+szshibai:"뱅커 신청 실패",
+szchenggong:"뱅커 신청 성공",
+xzchenggong:"플레이어 신청 성공",
+shangzhuang:"뱅커 신청하기",
+xuanzhong:"0보다 높게 설정해야 합니다",
+zbjinshangxian:"자본금은 뱅커 최소한도보다 낮을 수 없습니다%{zbjinshangxian}",
+dengdai:"다음 게임이 곧 시작됩니다...", // 记得加上...
+jipai:"패 기억하기",
+jihaozhuo:"%{jihaozhuo}번 테이블", // x号桌
 
-zhanghu: "账户：%{zhanghu}",
-wujilu: "暂无记录",
-paomadeng:"恭喜用户%{yonghu}投注%{beishu}倍，获得%{etcjiang}奖励",
+zhanghu: "계정：%{zhanghu}",
+wujilu: "관련 기록이 없습니다",
+paomadeng:"축하합니다! %{yonghu}님이 %{beishu}배 베팅에 성공，%{etcjiang}를 획득하셨습니다.",
 
 // 上庄
-paixu:"排序",
-yonghu:"用户",
-jine:"金额",
-jineZhushi:"* 金额高的排序在前",
-qian1lun:"前1轮",
-qian1lun:"前2轮",
-qian1lun:"前3轮",
-qian1lun:"前4轮",
-qian1lun:"前5轮",
-shenglv:"胜率",
-shenglvZhushi:"* 胜率根据近100局的胜负统计",
-zhuang:"庄",
+paixu:"순서",
+yonghu:"아이디",
+jine:"금액",
+jineZhushi:"*대기 순서는 금액의 크기로 결정됩니다",
+qian1lun:"이전 1라운드",
+qian1lun:"이전 2라운드",
+qian1lun:"이전 3라운드",
+qian1lun:"이전 4라운드",
+qian1lun:"이전 5라운드",
+shenglv:"승률",
+shenglvZhushi:"*승률은 최근 100판의 승패 통계를 근거로 합니다",
+zhuang:"뱅커",
 // 坐庄
-shezhijine:"设定庄家上庄金额",
-zidongbuzu:"自动补足坐庄金额", // 自动补足坐庄金额 xx 次 翻译的时候注意一下是放在下面还是上面
-zidongbuzuci:"次",// 自动补足坐庄金额 xx 次 翻译的时候注意一下是放在下面还是上面
-zuozhuangzhushi:"* 上庄金额不足时，系统自动扣除您的余额并补足上庄金额",
+shezhijine:"뱅커 자본금 설정",
+zidongbuzu:"뱅커 자본금 자동 보충 횟수:", // 自动补足坐庄金额 xx 次 翻译的时候注意一下是放在下面还是上面
+zidongbuzuci:"회",// 自动补足坐庄金额 xx 次 翻译的时候注意一下是放在下面还是上面
+zuozhuangzhushi:"*뱅커 자본금이 부족할 경우 잔액에서 자동으로 차감하여 자본금에 추가시킵니다",
 // 结算
-jiesuantou:"本局收益前五名",
-lianzhuang:"连庄",
-xiazhuang:"下庄",
+jiesuantou:"이번 판 수익 랭킹",
+lianzhuang:"뱅커 계속하기",
+xiazhuang:"뱅커 그만하기",
 
 //购买弹层
-yueyichang:"账号余额异常，请重新尝试或联系客服：support@coingame.com",
-koukuanshibai:"扣款失败，请重新购买或联系客服：support@coingame.com",
-zhunbeijinbuzu:"庄家准备金不足",
-kaijiangshibai:"开奖失败，请联系客服：support@coingame.com",
-youxizhong:"开奖中不能投币",
+yueyichang:"계정 잔액에 오류가 생겼습니다. 다시 시도하거나 고객센터에 문의해주세요：support@coingame.com",
+koukuanshibai:"잔액 차감 실패, 다시 구매하거나 고객센터에 문의해주세요：support@coingame.com",
+zhunbeijinbuzu:"뱅커 자본금 부족",
+kaijiangshibai:"정산 실패, 고객센터에 문의해주세요：support@coingame.com",
+youxizhong:"아직 베팅할 수 없습니다",
 
 //提示
-wangluo: "当前网络不可用，请检查网络连接是否正常。",
-wangluolianjie: "当前网络异常！您可以尝试重新连接",
+wangluo: "네트워크 사용 불가, 네트워크 연결 상태를 확인해주세요",
+wangluolianjie: "네트워크 오류！다시 연결해주세요",
 
 // ui 中设置
 // main
-anniu_tibi: "提币",
-anniu_chongzhi: "充值",
+anniu_tibi: "출금",
+anniu_chongzhi: "충전",
 //按钮
-anniu_1: "确认",
-anniu_2: "取消",
+anniu_1: "확인",
+anniu_2: "취소",
 //新手引导
-yindao_guanwang: "官网",
-yindao_login:"注册/登录",
-yindao_android:"安卓客户端",
-yindao_yuyan:"Languages",
-yindao_logout:"退出/切换账号",
-yindao_music:"声音",
-yindao_help:"帮助",
-yindao_rank:"排行榜",
+yindao_guanwang: "홈페이지",
+yindao_login:"회원가입/로그인",
+yindao_android:"모바일 버전",
+yindao_yuyan:"언어",
+yindao_logout:"로그아웃/계정 전환",
+yindao_music:"사운드",
+yindao_help:"도움말",
+yindao_rank:"랭킹",
 // 维护
-weihuzhong:"游戏维护中，请稍后重试 ",
+weihuzhong:"점검 중입니다. 잠시 후 시도해주세요",
 
 // 夺宝规则
-guizewenzi:`基本规则:
-入座以后，玩家在投币时间内将游戏币投在投币区域。
-玩家拥有的游戏币大于一定数额即能申请上庄。
-游戏开始后，每个位置会获得2张牌，翻牌后庄家和其他位置逐一比对结算胜负
+guizewenzi:`기본 규칙:
+뱅커가 들어온 후 플레이어는 베팅 시간 내에 코인을 베팅 구역에 베팅합니다.
+플레이어가 보유한 코인이 일정 금액을 초과할 경우 뱅커 신청이 가능합니다.
+게임 시작 후 모든 자리에 2장의 패가 부여되고 뱅커의 패와 다른 자리의 패를 비교하여 승패를 결정합니다.
 
-麻将牌点数说明:
-游戏使用麻将的1-9筒和白板，计为1-10点。点数总和超过10点，则只算个位数。
-牌型大小：豹子&gt;天杠&gt;9点&gt;8点&gt;7点&gt;6点&gt;5点&gt;4点&gt;3点&gt;2点&gt;1点&gt;0点
-豹子：2张一样的牌称为豹子，白板豹子最大。
-天杠：2筒+8筒。
-比较规则：首先比较牌型大小，如遇牌型或点数相同则比较2张麻将牌中点数较大的牌，如9+2=1点&gt;8+3=1点。
-若点数和牌型完全一致，庄家失败。
+마작 패 점수 설명:
+게임에 사용되는 패는 마작의 1-9까지의 통수패와 백판이며 1-10점으로 계산합니다. 두 패의 합이 10을 넘을 경우 1의 자리 숫자만 사용합니다.
+족보:페어&gt;이팔&gt;9점&gt;8점&gt;7점&gt;6점&gt;5점&gt;4점&gt;3점&gt;2점&gt;1점&gt;0점
+페어：두 장의 패가 같을 경우 페어라고 하며 백판 페어가 가장 높습니다.
+이팔：두 장의 패가 2통과 8통인 경우
+승패 규칙: 먼저 족보 대로 계산하고 같은 족보가 나온 경우 단일 패중 높은 숫자의 패를 비교하여 승패를 가립니다. 예: 9통+2통=1점&gt;8통+3통=1점
+족보와 패가 모두 같은 경우 뱅커의 승리입니다.
 
-详细牌型:
-豹子牌型:
-豹子牌型为本游戏中的最大牌型，豹子中单张牌的大小决定豹子的大小，一对白板最大。
+족보 설명:
+페어 패:
+페어는 본 게임에서 가장 높은 패이며 페어끼리는 숫자의 크기로 승패를 가린다. 백판 페어가 가장 높다.
 
-单点牌型:
-除了豹子和天杠外，其余为点数牌，其大小取决于两张牌的总和的个位数大小，其次则是单张牌的大小。
+점수 패:
+페어와 이팔 패를 제외한 나머지 패는 모두 점수 패이다. 점수 패는 먼저 두 숫자의 합의 1의 자리를 가지고 승패를 가린다. 동률일 경우 단일 숫자의 크기로 승패를 가린다. 
 
-天杠牌型:
-一个2筒+一个8筒组成了天杠，该牌型小于任何豹子，但大于任意点数牌型。
+이팔 패:
+이팔은 2통 하나와 8통 하나로 이루어진 패이다. 이팔은 모든 페어 패보다는 작지만 모든 점수 패보다는 높다.
 
-官方拥有该游戏的最终解释权。如有任何疑问请联系官方客服:
-Email：support@coingame.com 
+본 게임의 최종 해석권은 홈페이지가 보유하고 있습니다. 문제가 있을 경우 고객센터에 문의해주세요:
+이메일：support@coingame.com 
 QQ：468631374
-Kakao：Coingame Korea
-（<u click="clickme1" >https://open.kakao.com/o/shleVM3</u>）
-Telegram：<u click="clickme2" >https://t.me/Coingame_official</u>
+카카오톡：Coingame Korea
+（<u click="clickme1" >http://pf.kakao.com/_Mirxnj</u>）
+텔레그램：<u click="clickme2" >https://t.me/Coingame_official</u>
 `,
 };
